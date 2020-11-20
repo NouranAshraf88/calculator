@@ -1,0 +1,64 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+  }
+body{
+   background: #333;
+  }
+.calculator {
+   background: #ccc;
+   text-align: center;
+   width: 400px;
+   margin: 80px auto;
+    padding: 30px ;
+}
+form{
+   padding: 0 5px;
+   margin-bottom: 15px;
+  }
+.display{
+   width: 100%;
+   height: 40px;
+   padding: 0 10px;
+   pointer-events: none;
+  }
+.row1:before, .row1:after{
+   content: '';
+   display: table;
+   clear: both;
+   width: 100%;
+  }
+.col{
+   width: 25%;
+   padding: 5px;
+   float: left;
+  }
+.col1{
+   width: 50%;
+   padding: 5px;
+   float: left;
+  }
+.coulmn{
+    display: block;
+    
+}
+.oprator,.decimal{
+    width: 100%;
+   height: 40px;
+   outline: none;
+}
+.add,.substract,.divide,.multiply, .delet, .button,.clear
+{
+   width: 100%;
+   height: 40px;
+   outline: none;
+    background-color: #9bd1ff;
+  }
+.equal{
+   background: #3080c4;
+   outline: none;
+   font-size: 22px;
+    width: 100%;
+    height: 40px;
+  }

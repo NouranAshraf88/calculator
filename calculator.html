@@ -1,0 +1,52 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+        <title>calculator </title>
+        <style>
+        </style>
+    </head>
+    <body >
+<div class="calculator">
+    <form name="form">
+    <input type="text" name="display" class="display" >
+    </form> 
+    
+            <div class="row1">
+                <div class ="col"><button class="clear" onclick="clean();">AC</button></div>
+                <div class ="col"><button class="delet" onclick="back();">Del</button></div>
+                <div class ="col"><button class="button" onclick="insert('%');">%</button></div>
+                <div class ="col"><button class="add" onclick="insert('+');">+</button></div>  
+            </div>
+    
+            <div class="row1">
+                <div class ="col"><button class="oprator" value="1" onclick="insert(1);">1</button></div>
+                <div class ="col"><button class="oprator" onclick="insert(2);">2</button></div>
+                <div class ="col"><button class="oprator"onclick="insert(3);">3</button></div>
+                 <div class ="col"><button class="divide"onclick="insert('/');">/</button></div>
+                
+            </div>
+                <div class ="col"><button class="oprator"onclick="insert(4);">4</button></div>
+                <div class ="col"><button class="oprator"onclick="insert(5);">5</button></div>
+                <div class ="col"><button class="oprator"onclick="insert(6);">6</button></div>
+                    <div class ="col"><button class="multiply" onclick="insert('*');">X</button></div>
+
+
+             <div class="row1">      
+                <div class ="col"><button class="oprator"onclick="insert(7);">7</button></div>
+                <div class ="col"><button class="oprator"onclick="insert(8);">8</button></div>
+                <div class ="col"><button class="oprator"onclick="insert(9);">9</button></div>
+                <div class ="col"><button class="substract" onclick="insert('-');">-</button></div>
+
+               
+
+             </div>
+            <div class="row1">  
+                <div class ="col"><button class="oprator" onclick="insert(0);">0</button></div>
+                <div class ="col"><button class="decimal" onclick="insert('.');">.</button></div>
+                <div class="col1"><button class="equal" onclick="equal();">=</button></div>
+            </div>
+        </div>
+    </body>
+    <script src="Js/calculator.js"></script>
+</html>
